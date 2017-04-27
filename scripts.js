@@ -40,4 +40,4 @@ animal = animal.toUpperCase();
 
 text = text.replace('Papugi', animal);
 
-console.log(text.substr(length /2));
+console.log(text.substr(0, text.length / 2));
