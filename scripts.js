@@ -26,5 +26,18 @@ var allNames = maleNames.concat(femaleNames);
 var newName ='Zdzich';
 
 if (allNames.indexOf(newName) === -1) {
-    allNames = allNames.push(newName);
+    allNames.push(newName);
 }
+
+// 9.3 łańcuchy
+console.clear();
+
+var text = 'Papugi koszą trawę, unosząc się nad ziemią 15 centymetrów, na czerwonych dywanach.';
+
+var animal = 'Zielone słonie';
+
+animal = animal.toUpperCase();
+
+text = text.replace('Papugi', animal);
+
+console.log(text.substr(length /2));
