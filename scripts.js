@@ -54,3 +54,15 @@ function drawTree(h) {
         console.log(star); 
     }        
 }
+
+console.clear();
+
+// 9.5 DOM
+
+var buttons = document.getElementsByClassName('button');
+
+function klikanie() {
+    for (var c = -1 ; buttons.lenght > c ; c++) {
+        console.log(buttons.innerText);
+    }    
+}
