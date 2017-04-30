@@ -63,6 +63,6 @@ var buttons = document.getElementsByClassName('button');
 
 function klikanie() {
     for (var c = 0 ; buttons.length > c ; c++) {
-        alert(buttons[0].innerText);
+        alert(buttons[c].innerText);
     }    
 }
